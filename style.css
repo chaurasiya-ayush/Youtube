@@ -430,8 +430,11 @@ margin-top: 60px;
             
         }
         #poster{
-            width: 80%;
-            height: 100%;
+            margin-top: -30px;
+            border-radius: 5px;
+           width: 100vw;
+           height: 10vh;
+           margin-left: -20px;
         }
         #list{
             display: none;
@@ -460,9 +463,7 @@ margin-top: 60px;
         .banner{
             display: block;
         }
-        .banner1{
-            margin-left: 20%;
-        }
+        
         .article1{
             display: block;
             padding: 0px;
@@ -501,6 +502,16 @@ margin-top: 60px;
         .bar{
             display: flex;
             margin-left: -20px;
+            
+        }
+        .banner{
+            display: grid;
+            grid-template-columns: 3fr 9fr;
+        }
+        .banner2{
+            margin-top: 40px;
+            margin-left: 10px;
+           
         }
        
     }
